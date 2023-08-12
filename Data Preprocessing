@@ -1,0 +1,31 @@
+# Install and load required packages
+install.packages(c("tm", "tokenizers"))
+library(tm)
+library(tokenizers)
+
+# Proposed PGT Data Preprocessing
+
+PGT_Preprocessing <- function(code) {
+  # Step 1: Tokenization using the tokenizers package
+  tokens <- unlist(tokenize_words(code))
+  
+  # Step 2: Cleaning and Normalization using the tm package
+  tokens_clean <- tolower(tokens)
+  tokens_clean <- removePunctuation(tokens_clean)
+  tokens_clean <- removeNumbers(tokens_clean)
+  tokens_clean <- removeWords(tokens_clean, stopwords("en"))
+  tokens_clean <- tokens_clean[nchar(tokens_clean) > 0]
+  
+  # Step 3: Word2VecSkipGram Encoding
+  # Note: R doesn't have a direct implementation for Word2Vec. 
+  # For a complete implementation, you might want to use Python or another tool.
+  # Here, we'll just return the cleaned tokens as a placeholder.
+  encoded_tokens <- tokens_clean
+  
+  return(encoded_tokens)
+}
+
+# Example Usage
+code <- "Your raw smart contract code here"
+preprocessed_data <- PGT_Preprocessing(code)
+print(preprocessed_data)
