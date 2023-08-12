@@ -1,0 +1,36 @@
+# Required Libraries
+install.packages("kernlab")
+library(kernlab)
+library(base)
+library(stats)
+
+# Proposed PGT Classification Algorithm
+PGT_Classification <- function(X_opt, D_train, Y_train, D_test) {
+  # Step 1: Classification with Transductive SVM (TSVM)
+  
+  # Train the TSVM classifier
+  tsvm_model <- ksvm(as.matrix(D_train), as.factor(Y_train), type = "tsvm", kernel = "vanilladot")
+  
+  # Obtain the classifier's score
+  f_opt <- predict(tsvm_model, D_test, type = "decision")
+  
+  # Step 2: Output Class Labels
+  
+  # Set the threshold value based on empirical evaluation
+  f_init <- 0.5  # This is a placeholder value. You should set this based on your empirical evaluation.
+  
+  if (f_opt > f_init) {
+    V <- predict(tsvm_model, D_test)
+  } else {
+    # Here, you would typically retrain the TSVM with both labeled and unlabeled data.
+    # For simplicity, we're using the same model.
+    V <- predict(tsvm_model, D_test)
+  }
+  
+  return(V)
+}
+
+# Example usage
+# Assuming you have X_opt, D_train, Y_train, and D_test datasets ready
+# result <- PGT_Classification(X_opt, D_train, Y_train, D_test)
+# print(result)
