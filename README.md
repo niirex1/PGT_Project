@@ -6,7 +6,7 @@ Ensuring security and reliability in smart contracts remains a paramount concern
 
 ## About PGT
 
-To address these challenges, we introduce the **Particle Gravitational Translearner (PGT)**. This novel approach is a fusion of a semi-supervised optimization and transductive learning methodology. PGT delves deep into data preprocessing, transforming the textual smart contract source code into dense numerical vectors. This transformation is pivotal as it captures intricate semantic relationships between tokens, enhancing the feature selection process.
+To address these challenges, we introduce the **Particle Gravitational Translearner (PGT)**. This novel approach is a fusion of semi-supervised optimization and transductive learning methodology. PGT delves deep into data preprocessing, transforming the textual smart contract source code into dense numerical vectors. This transformation is pivotal as it captures intricate semantic relationships between tokens, enhancing the feature selection process.
 
 ### Feature Selection
 
@@ -38,7 +38,7 @@ Before you begin, ensure you have the following installed:
 
    Open your terminal or command prompt and run:
    ```bash
-   git clone https://github.com/your_username/PGT_Project.git
+   git clone https://github.com/niirex1/PGT_Project
    ```
 
 2. **Navigate to the Project Directory**
@@ -87,7 +87,7 @@ We welcome contributions from the community! Whether you're fixing bugs, improvi
 
 ### 1. **Fork the Repository**
 
-Start by forking the [PGT repository](https://github.com/your_username/PGT_Project).
+Start by forking the [PGT repository(https://github.com/niirex1/PGT_Project)].
 
 ### 2. **Clone Your Fork**
 
@@ -196,8 +196,8 @@ For any questions, feedback, or suggestions regarding the PGT project, please re
 
 - **Rexford Sosu**
   - Email: rexfordsosu@outlook.com
-  - GitHub: [@johndoe](https://github.com/niirex1)
-  - LinkedIn: [John's LinkedIn](https://www.linkedin.com/in/rexford-sosu-b4593b57/)
+  - GitHub: [@rexfordsosu](https://github.com/niirex1)
+  - LinkedIn: [Rexford's LinkedIn](https://www.linkedin.com/in/rexford-sosu-b4593b57/)
 
 We appreciate your interest in the PGT project and look forward to collaborating with you!
 ---
