@@ -1,4 +1,4 @@
-The SmartBugs repository primarily contains `.sol` files, which are Ethereum smart contract source code files. These files are not structured like traditional datasets, so converting them directly to CSV might not be straightforward.
+The SmartBugs repository https://smartbugs.github.io/ primarily contains `.sol` files, which are Ethereum smart contract source code files. These files are not structured like traditional datasets, so converting them directly to CSV might not be straightforward.
 
 However, if you're looking to create a CSV dataset from the `.sol` files, one approach could be to extract specific features or metadata from each smart contract and then structure this information in a CSV format.
 
