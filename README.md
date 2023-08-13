@@ -153,12 +153,6 @@ Thank you for contributing to PGT! Your efforts help improve the project for eve
 
 ## License
 
-Certainly! Here's a general overview of the MIT License, which is one of the most common open-source licenses. If you have a different license in mind, please let me know, and I can provide information on that instead.
-
----
-
-## License
-
 ### MIT License
 
 The PGT project is licensed under the MIT License. This means that anyone is free to copy, modify, publish, use, compile, sell, or distribute the software, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means.
@@ -184,12 +178,6 @@ This section provides a brief overview of the MIT License for the PGT project. I
 
 ---
 
-## Contact
-
-Of course! Here's a template for the contact section of the README:
-
----
-
 ## Contact & Support
 
 For any questions, feedback, or suggestions regarding the PGT project, please reach out to the project maintainers:
@@ -201,9 +189,3 @@ For any questions, feedback, or suggestions regarding the PGT project, please re
 
 We appreciate your interest in the PGT project and look forward to collaborating with you!
 ---
-
-Please replace "John Doe", "Jane Smith", and the associated links with the actual names and contact details of the project maintainers. This section provides a structured way for users and contributors to reach out to the project team.
-
----
-
-This README provides a structured overview of the PGT project.
